@@ -4,7 +4,6 @@
 Please see [Contribution.md](/CONTRIBUTING.md)
 
 ## Process
-==========
 
 ##### Campaign
 - Naming Convention: `(Campaign Name) + (Month) + (Year)`
