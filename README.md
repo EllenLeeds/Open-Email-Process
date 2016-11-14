@@ -26,5 +26,5 @@
 		> Jeff, Liam, Barry, Jane, Jen, Justin, `(Key team members, ex: Member Care, Sales, etc `
 
 - Completion Actions ***!Important - All Mailings***
-	- Change Prospect Custom Field Value - `Lead Status` --> * `Dead` *
-	- Change Prospect Custom Field Value - `Dead To Pardot` --> * `True` * 
+	- Change Prospect Custom Field Value - `Lead Status` --> *Dead*
+	- Change Prospect Custom Field Value - `Dead To Pardot` --> *True* 
