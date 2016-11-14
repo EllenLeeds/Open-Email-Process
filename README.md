@@ -22,4 +22,4 @@
 - Sending
 	- When possible, schedule email in advance. 
 	- Before sending, generate and share final proof with key team members.
-			> Jeff, Liam, Barry, Jane, Jen, Justin, `(Key team members, ex: Member Care, Sales, etc `
+	> Jeff, Liam, Barry, Jane, Jen, Justin, `(Key team members, ex: Member Care, Sales, etc `
