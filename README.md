@@ -1,7 +1,10 @@
 # open_email_process
 
-#### Contribution Rules
+## Contribution Rules
 Please see [Contribution.md](/CONTRIBUTING.md)
+
+## Process
+==========
 
 ##### Campaign
 - Naming Convention: `(Campaign Name) + (Month) + (Year)`
