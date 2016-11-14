@@ -1,25 +1,25 @@
 # open_email_process
 
 - Campaign
-	- ::Naming Convention::: `(Campaign Name) + (Month) + (Year)`
+	- Naming Convention: `(Campaign Name) + (Month) + (Year)`
 		- ex. `Destination: Tahoe - November, 2016`
 	- Campaign should include email template, and email draft. 
 
 - Published Template
-	- ::Naming Convention::: `(Campaign Name) + (Month) + (Year) + (type)`
+	- Naming Convention: `(Campaign Name) + (Month) + (Year) + (type)`
 		-  ex. `Destination: Tahoe - November, 2016 - Template`
 
 - Draft
-	- ::Naming Convention::: `(Campaign Name) + (Month) + (Year) + (type)`
+	- Naming Convention: `(Campaign Name) + (Month) + (Year) + (type)`
 		-  ex. `Destination: Tahoe - November, 2016 - Email`
 
 - Segmentation
-	- ::Define segmentation early::
+	- Define segmentation early
 	- Use `Master Suppression Bucket`
 	- Use `Master US Suppression` and `Master EU Suppression` accordingly
-	- ::When possible, create dynamic lists using SalesForce:: (if you need help, see Justin Hart)
+	- When possible, create dynamic lists using SalesForce (if you need help, see Justin Hart)
 
 - Sending
-	- ::When possible, schedule email in advance. ::
+	- When possible, schedule email in advance. 
 	- Before sending, generate and share final proof with key team members.
-			> Jeff, Liam, Barry, Jane, Jen, Justin, ::(Key team members, ex: Member Care, Sales, etc ::
+			> Jeff, Liam, Barry, Jane, Jen, Justin, `(Key team members, ex: Member Care, Sales, etc `
