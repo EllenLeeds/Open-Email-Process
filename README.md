@@ -1,7 +1,7 @@
 # open_email_process
 
 #### Contribution Rules
-	Please see [Contribution.md](/email_process/blob/master/CONTRIBUTING.md)
+Please see [Contribution.md](/email_process/blob/master/CONTRIBUTING.md)
 
 - Campaign
 	- Naming Convention: `(Campaign Name) + (Month) + (Year)`
