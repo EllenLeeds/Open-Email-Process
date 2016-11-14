@@ -1,5 +1,8 @@
 # open_email_process
 
+#### Contribution Rules
+	Please see [Contribution.md]
+
 - Campaign
 	- Naming Convention: `(Campaign Name) + (Month) + (Year)`
 		- ex. `Destination: Tahoe - November, 2016`
@@ -23,8 +26,8 @@
 	- When possible, schedule email in advance.
 	- Before sending, generate and share final proof with key team members.
 
-		> Jeff, Liam, Barry, Jane, Jen, Justin, `(Key team members, ex: Member Care, Sales, etc `
+		> Jeff, Liam, Barry, Jane, Jen, Justin, `(Key team members, ex: Member Care, Sales, etc) `
 
 - Completion Actions ***!Important - All Mailings***
 	- Change Prospect Custom Field Value - `Lead Status` --> *Dead*
-	- Change Prospect Custom Field Value - `Dead To Pardot` --> *True* 
+	- Change Prospect Custom Field Value - `Dead To Pardot` --> *True*
