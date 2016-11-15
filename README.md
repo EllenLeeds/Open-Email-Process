@@ -8,17 +8,20 @@ Please see [Contribution.md](/CONTRIBUTING.md)
 ##### Campaign
 - Naming Convention: `(Localization + Segmentation) + (Year + Month) + (Campaign Name)`
 	- ex. `US_Prospect_201611_Destination: Tahoe`
+	-  ex. `EU Members - 201611 - EU Newsletter`
 - Campaign should include email template, and email draft.
 
 ##### Published Template
 - Naming Convention: `(Localization + Segmentation) + (Year + Month) + (Campaign Name) + (type)`
 	-  ex. `US Prospect - 201611 - Destination: Tahoe - Template`
+	-  ex. `EU Members - 201611 - EU Newsletter - Template`
 
 ##### Draft
 - Naming Convention: `(Localization + Segmentation) + (Year + Month) + (Campaign Name) + (type)`
 	-  ex. `US Lead - 201611 - Destination: Tahoe - Draft`
 - If sending a follow up, append `Follow Up` to the end of the title.
 	-  ex. `US Lead - 201611 - Destination: Tahoe - Draft - Follow Up`
+	-  ex. `EU Members - 201611 - EU Newsletter - Draft`
 
 ##### Segmentation
 - Define segmentation early
