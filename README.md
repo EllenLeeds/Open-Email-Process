@@ -23,11 +23,17 @@ Please see [Contribution.md](/CONTRIBUTING.md)
 	- ex. `US Lead - 201611 - Destination: Tahoe - Draft - Follow Up`
 	- ex. `EU Members - 201611 - EU Newsletter - Draft`
 
-##### Segmentation
+##### Segmentation ***!Important***
 - Define segmentation early
 - Use `Master Suppression Bucket`
 - Use `Master US Suppression` and `Master EU Suppression` accordingly
 - When possible, create dynamic lists using SalesForce (if you need help, see Justin Hart)
+
+> ######- List Creation
+> - On Import
+>	- Spot check list in Excel / Google Sheets / Numbers / Libre Office / etc. If there are any obvious discrepancies, re-pull the list, or contact the list provider for assistance.
+>	- Import list into Pardot
+
 
 ##### Sending
 - When possible, schedule email in advance.
