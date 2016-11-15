@@ -6,17 +6,20 @@ Please see [Contribution.md](/CONTRIBUTING.md)
 ## Process
 
 ##### Campaign
+---
 - Naming Convention: `(Localization + Segmentation) + (Year + Month) + (Campaign Name)`
 	- ex. `US_Prospect_201611_Destination: Tahoe`
 	- ex. `EU Members - 201611 - EU Newsletter`
 - Campaign should include email template, and email draft.
 
 ##### Published Template
+---
 - Naming Convention: `(Localization + Segmentation) + (Year + Month) + (Campaign Name) + (type)`
 	- ex. `US Prospect - 201611 - Destination: Tahoe - Template`
 	- ex. `EU Members - 201611 - EU Newsletter - Template`
 
 ##### Draft
+---
 - Naming Convention: `(Localization + Segmentation) + (Year + Month) + (Campaign Name) + (type)`
 	-  ex. `US Lead - 201611 - Destination: Tahoe - Draft`
 - If sending a follow up, append `Follow Up` to the end of the title.
@@ -24,18 +27,25 @@ Please see [Contribution.md](/CONTRIBUTING.md)
 	- ex. `EU Members - 201611 - EU Newsletter - Draft`
 
 ##### Segmentation ***!Important***
+---
 - Define segmentation early
 - Use `Master Suppression Bucket`
 - Use `Master US Suppression` and `Master EU Suppression` accordingly
 - When possible, create dynamic lists using SalesForce (if you need help, see Justin Hart)
 
-> ######- List Creation
-> - On Import
->	- Spot check list in Excel / Google Sheets / Numbers / Libre Office / etc. If there are any obvious discrepancies, re-pull the list, or contact the list provider for assistance.
->	- Import list into Pardot
+######- List Creation
+- On Import
+	- Spot check list in Excel / Google Sheets / Numbers / Libre Office / etc. If there are any obvious discrepancies, re-pull the list, or contact the list provider for assistance.
+	- Import list into Pardot
+	- Add to campaign using proper naming convention
+	- Select `Import Prospects And Add To List`
+	- Naming Convention: `(Localization + Segmentation) + (Year + Month) + (Campaign Name) + (type)`
+		-  ex. `US Extra Invites  - 201611 - Toast To Tahoe - List`
+
 
 
 ##### Sending
+---
 - When possible, schedule email in advance.
 - Before sending, remove "Draft" from email name.
 	- ex. `US Lead - 201611 - Destination: Tahoe` or `US Lead - 201611 - Destination: Tahoe - Follow Up`
@@ -44,6 +54,7 @@ Please see [Contribution.md](/CONTRIBUTING.md)
 	> Jeff, Liam, Barry, Jane, Jen, Justin, `(Key team members, ex: Member Care, Sales, etc) `
 
 ##### Completion Actions ***!Important - All Mailings***
+---
 - On Unsubscribe
 	- Change Prospect Custom Field Value - `Lead Status` --> *Dead*
 	- Change Prospect Custom Field Value - `Dead To Pardot` --> *True*
