@@ -21,10 +21,10 @@ Please see [Contribution.md](/CONTRIBUTING.md)
 ##### Draft
 ---
 - Naming Convention: `(Localization + Segmentation) + (Year + Month) + (Campaign Name) + (type)`
-	-  ex. `US Lead - 201611 - Destination: Tahoe - Draft`
+	-  ex. `US Lead - 201611 - Destination: Tahoe`
 - If sending a follow up, append `Follow Up` to the end of the title.
-	- ex. `US Lead - 201611 - Destination: Tahoe - Draft - Follow Up`
-	- ex. `EU Members - 201611 - EU Newsletter - Draft`
+	- ex. `US Lead - 201611 - Destination: Tahoe - Follow Up`
+	- ex. `EU Members - 201611 - EU Newsletter`
 
 ##### Segmentation ***!Important***
 ---
@@ -47,8 +47,6 @@ Please see [Contribution.md](/CONTRIBUTING.md)
 ##### Sending
 ---
 - When possible, schedule email in advance.
-- Before sending, remove "Draft" from email name.
-	- ex. `US Lead - 201611 - Destination: Tahoe` or `US Lead - 201611 - Destination: Tahoe - Follow Up`
 - Before sending, generate and share final proof with key team members.
 
 	> Jeff, Liam, Barry, Jane, Jen, Justin, `(Key team members, ex: Member Care, Sales, etc) `
