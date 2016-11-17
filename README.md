@@ -8,7 +8,7 @@ Please see [Contribution.md](/CONTRIBUTING.md)
 ##### Campaign
 ---
 - Naming Convention: `(Localization + Segmentation) + (Year + Month) + (Campaign Name)`
-	- ex. `US_Prospect_201611_Destination: Tahoe`
+	- ex. `US - Prospect - 201611 - Destination: Tahoe`
 	- ex. `EU Members - 201611 - EU Newsletter`
 - Campaign should include email template, and email draft.
 
@@ -58,3 +58,7 @@ Please see [Contribution.md](/CONTRIBUTING.md)
 - On Unsubscribe
 	- Change Prospect Custom Field Value - `Lead Status` --> *Dead*
 	- Change Prospect Custom Field Value - `Dead To Pardot` --> *True*
+
+##### Drip Campaign ***!Important - Only Build Through Pardot Engagement Studio***
+---
+- Naming Convention: `Localization + Drip Campaign + (Year + Month)`
