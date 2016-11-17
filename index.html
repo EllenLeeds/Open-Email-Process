@@ -42,11 +42,13 @@
 <h5>
 <a id="campaign" class="anchor" href="#campaign" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Campaign</h5>
 
+<hr>
+
 <ul>
 <li>Naming Convention: <code>(Localization + Segmentation) + (Year + Month) + (Campaign Name)</code>
 
 <ul>
-<li>ex. <code>US_Prospect_201611_Destination: Tahoe</code>
+<li>ex. <code>US - Prospect - 201611 - Destination: Tahoe</code>
 </li>
 <li>ex. <code>EU Members - 201611 - EU Newsletter</code>
 </li>
@@ -57,6 +59,8 @@
 
 <h5>
 <a id="published-template" class="anchor" href="#published-template" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Published Template</h5>
+
+<hr>
 
 <ul>
 <li>Naming Convention: <code>(Localization + Segmentation) + (Year + Month) + (Campaign Name) + (type)</code>
@@ -72,6 +76,8 @@
 
 <h5>
 <a id="draft" class="anchor" href="#draft" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Draft</h5>
+
+<hr>
 
 <ul>
 <li>Naming Convention: <code>(Localization + Segmentation) + (Year + Month) + (Campaign Name) + (type)</code>
@@ -93,7 +99,10 @@
 </ul>
 
 <h5>
-<a id="segmentation" class="anchor" href="#segmentation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Segmentation</h5>
+<a id="segmentation-important" class="anchor" href="#segmentation-important" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Segmentation <strong><em>!Important</em></strong>
+</h5>
+
+<hr>
 
 <ul>
 <li>Define segmentation early</li>
@@ -103,8 +112,33 @@
 <li>When possible, create dynamic lists using SalesForce (if you need help, see Justin Hart)</li>
 </ul>
 
+<h6>
+<a id="--list-creation" class="anchor" href="#--list-creation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>- List Creation</h6>
+
+<ul>
+<li>On Import
+
+<ul>
+<li>Spot check list in Excel / Google Sheets / Numbers / Libre Office / etc. If there are any obvious discrepancies, re-pull the list, or contact the list provider for assistance.</li>
+<li>Import list into Pardot</li>
+<li>Add to campaign using proper naming convention</li>
+<li>Select <code>Import Prospects And Add To List</code>
+</li>
+<li>Naming Convention: <code>(Localization + Segmentation) + (Year + Month) + (Campaign Name) + (type)</code>
+
+<ul>
+<li> ex. <code>US Extra Invites  - 201611 - Toast To Tahoe - List</code>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
 <h5>
 <a id="sending" class="anchor" href="#sending" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Sending</h5>
+
+<hr>
 
 <ul>
 <li>When possible, schedule email in advance.</li>
@@ -128,6 +162,8 @@
 <a id="completion-actions-important---all-mailings" class="anchor" href="#completion-actions-important---all-mailings" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Completion Actions <strong><em>!Important - All Mailings</em></strong>
 </h5>
 
+<hr>
+
 <ul>
 <li>On Unsubscribe
 
@@ -137,6 +173,17 @@
 <li>Change Prospect Custom Field Value - <code>Dead To Pardot</code> --&gt; <em>True</em>
 </li>
 </ul>
+</li>
+</ul>
+
+<h5>
+<a id="drip-campaign-important---only-build-through-pardot-engagement-studio" class="anchor" href="#drip-campaign-important---only-build-through-pardot-engagement-studio" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Drip Campaign <strong><em>!Important - Only Build Through Pardot Engagement Studio</em></strong>
+</h5>
+
+<hr>
+
+<ul>
+<li>Naming Convention: <code>Localization + Drip Campaign + (Year + Month)</code>
 </li>
 </ul>
       </section>
