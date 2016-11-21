@@ -26,6 +26,13 @@ Please see [Contribution.md](/CONTRIBUTING.md)
 	- ex. `US Lead - 201611 - Destination: Tahoe - Follow Up`
 	- ex. `EU Members - 201611 - EU Newsletter`
 
+##### Test ***!Important***
+---
+- Update early, update often.
+	- Seriously, don't forget this!
+	- Affects any user who can not render the HTML email
+- Before sending, do one final check.
+
 ##### Segmentation ***!Important***
 ---
 - Define segmentation early
@@ -50,6 +57,8 @@ Please see [Contribution.md](/CONTRIBUTING.md)
 - Before sending, generate and share final proof with key team members.
 
 	> Jeff, Liam, Barry, Jane, Jen, Justin, `(Key team members, ex: Member Care, Sales, etc) `
+
+- Before sending, double check the text-version of HTMl emails. 
 
 ##### Completion Actions ***!Important - All Mailings***
 ---
