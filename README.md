@@ -60,9 +60,9 @@ We have three new Dynamic lists in Pardot. For future segmentation lists involvi
 - When possible, schedule email in advance.
 - Before sending, generate and share final proof with key team members.
 
-	> Jeff, Liam, Barry, Jane, Jen, Justin, `(Key team members, ex: Member Care, Sales, etc) `
+	> Liam, Barry, Jane, Simon, Jori `(Key team members, ex: Member Care, Sales, etc) `
 
-- Before sending, double check the text-version of HTMl emails.
+- Before sending, double and triple check the text-version of HTMl emails.
 
 ##### Completion Actions ***!Important - All Mailings***
 ---
