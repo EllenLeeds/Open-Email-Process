@@ -31,9 +31,11 @@ Please see [Contribution.md](/CONTRIBUTING.md)
 - Update early, update often.
 	- Seriously, don't forget this!
 	- Affects any user who can not render the HTML email
-- Before sending, do one final check.
+- Before sending, do one final check. Then check it again. 
 
-##### Segmentation ***!Important***
+##### Segmentation
+---
+***!Important*** - Please avoid using any lists that predate December 2016. New lists must adhere to naming conventions. When possible, make the list Dynamic so it stays up-to-date.
 ---
 - Define segmentation early
 - Use `Master Suppression Bucket`
@@ -45,8 +47,8 @@ Please see [Contribution.md](/CONTRIBUTING.md)
 >	- Import list into Pardot
 >	- Add to campaign using proper naming convention
 >	- Select `Import Prospects And Add To List`
->	- Naming Convention: `(Localization + Segmentation) + (Year + Month) + (Campaign Name) + (type)`
->		-  ex. `US Extra Invites  - 201611 - Toast To Tahoe - List`
+>	- Naming Convention: `(Localization) + (Year + Month) + (Segmentation) + (Details)`
+>		-  ex. `US - 201612 - Prospects - All Open`
 
 We have three new Dynamic lists in Pardot. For future segmentation lists involving Prospects or Opportunities, please create them by duplicating US - 201612 - Prospects - All Open or US - 201612 - Opportunities and adding a new Dynamic Rule.
 
