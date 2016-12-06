@@ -41,14 +41,19 @@ Please see [Contribution.md](/CONTRIBUTING.md)
 - When possible, create dynamic lists using SalesForce (if you need help, see Justin Hart)
 
 ######- List Creation
-- On Import
-	- Spot check list in Excel / Google Sheets / Numbers / Libre Office / etc. If there are any obvious discrepancies, re-pull the list, or contact the list provider for assistance.
-	- Import list into Pardot
-	- Add to campaign using proper naming convention
-	- Select `Import Prospects And Add To List`
-	- Naming Convention: `(Localization + Segmentation) + (Year + Month) + (Campaign Name) + (type)`
-		-  ex. `US Extra Invites  - 201611 - Toast To Tahoe - List`
+> - On Import
+>	- Spot check list in Excel / Google Sheets / Numbers / Libre Office / etc. If there are any obvious discrepancies, re-pull the list, or contact the list provider for assistance.
+>	- Import list into Pardot
+>	- Add to campaign using proper naming convention
+>	- Select `Import Prospects And Add To List`
+>	- Naming Convention: `(Localization + Segmentation) + (Year + Month) + (Campaign Name) + (type)`
+>		-  ex. `US Extra Invites  - 201611 - Toast To Tahoe - List`
 
+We have three new Dynamic lists in Pardot. For future segmentation lists involving Prospects or Opportunities, please create them by duplicating US - 201612 - Prospects - All Open or US - 201612 - Opportunities and adding a new Dynamic Rule.
+
+- US - 201612 - Prospects - All Open
+- US - 201612 - Prospects - All Open - Previous 12 Months
+- US - 201612 - Opportunities 
 
 
 ##### Sending
