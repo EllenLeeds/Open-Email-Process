@@ -3,6 +3,18 @@
 ## Contribution Rules
 Please see [Contribution.md](/CONTRIBUTING.md)
 
+## Table of Contents
+- Process
+	- [Campaign](process/campaign)
+	- [Segmentation](process/segmentation)
+		- [List Creation](process/segmentation)
+	- [Published Template](process/template)
+	- [Draft](process/draft)
+  	- [Text Version](process/template)
+	- [Sending](process/sending)
+	- [Completion Actions](process/completion_action)
+	- [Drip Campaign](process/drip)
+
 ## Process
 
 ##### Campaign
@@ -11,27 +23,6 @@ Please see [Contribution.md](/CONTRIBUTING.md)
 	- ex. `US - Prospect - 201611 - Destination: Tahoe`
 	- ex. `EU Members - 201611 - EU Newsletter`
 - Campaign should include email template, and email draft.
-
-##### Published Template
----
-- Naming Convention: `(Localization + Segmentation) + (Year + Month) + (Campaign Name) + (type)`
-	- ex. `US Prospect - 201611 - Destination: Tahoe - Template`
-	- ex. `EU Members - 201611 - EU Newsletter - Template`
-
-##### Draft
----
-- Naming Convention: `(Localization + Segmentation) + (Year + Month) + (Campaign Name) + (type)`
-	-  ex. `US Lead - 201611 - Destination: Tahoe`
-- If sending a follow up, append `Follow Up` to the end of the title.
-	- ex. `US Lead - 201611 - Destination: Tahoe - Follow Up`
-	- ex. `EU Members - 201611 - EU Newsletter`
-
-##### Text Version ***!Important***
----
-- Update early, update often.
-	- Seriously, don't forget this!
-	- Affects any user who can not render the HTML email
-- Before sending, do one final check. Then check it again. 
 
 ##### Segmentation
 ---
@@ -56,6 +47,26 @@ We have three new Dynamic lists in Pardot. For future segmentation lists involvi
 - US - 201612 - Prospects - All Open - Previous 12 Months
 - US - 201612 - Opportunities 
 
+##### Published Template
+---
+- Naming Convention: `(Localization + Segmentation) + (Year + Month) + (Campaign Name) + (type)`
+	- ex. `US Prospect - 201611 - Destination: Tahoe - Template`
+	- ex. `EU Members - 201611 - EU Newsletter - Template`
+
+##### Draft
+---
+- Naming Convention: `(Localization + Segmentation) + (Year + Month) + (Campaign Name) + (type)`
+	-  ex. `US Lead - 201611 - Destination: Tahoe`
+- If sending a follow up, append `Follow Up` to the end of the title.
+	- ex. `US Lead - 201611 - Destination: Tahoe - Follow Up`
+	- ex. `EU Members - 201611 - EU Newsletter`
+
+###### Text Version ***!Important***
+---
+- Update early, update often.
+	- Seriously, don't forget this!
+	- Affects any user who can not render the HTML email
+- Before sending, do one final check. Then check it again.
 
 ##### Sending
 ---
