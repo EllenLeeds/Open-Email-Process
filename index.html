@@ -37,6 +37,32 @@
 <p>Please see <a href="/CONTRIBUTING.md">Contribution.md</a></p>
 
 <h2>
+<a id="table-of-contents" class="anchor" href="#table-of-contents" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Table of Contents</h2>
+
+<ul>
+<li>
+<a href="/process/">Process</a>
+
+<ul>
+<li><a href="/process/campaign.md">Campaign</a></li>
+<li>
+<a href="/process/segmentation.md">Segmentation</a>
+
+<ul>
+<li><a href="/process/segmentation.md">List Creation</a></li>
+</ul>
+</li>
+<li><a href="/process/template.md">Published Template</a></li>
+<li><a href="/process/draft.md">Draft</a></li>
+<li><a href="/process/template.md">Text Version</a></li>
+<li><a href="/process/sending.md">Sending</a></li>
+<li><a href="/process/completion_action.md">Completion Actions</a></li>
+<li><a href="/process/drip.md">Drip Campaign</a></li>
+</ul>
+</li>
+</ul>
+
+<h2>
 <a id="process" class="anchor" href="#process" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Process</h2>
 
 <h5>
@@ -55,6 +81,165 @@
 </ul>
 </li>
 <li>Campaign should include email template, and email draft.</li>
+</ul>
+
+<h5>
+<a id="segmentation" class="anchor" href="#segmentation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Segmentation</h5>
+
+<hr>
+
+<h2>
+<a id="important---please-avoid-using-any-lists-that-predate-december-2016-new-lists-must-adhere-to-naming-conventions-when-possible-make-the-list-dynamic-so-it-stays-up-to-date" class="anchor" href="#important---please-avoid-using-any-lists-that-predate-december-2016-new-lists-must-adhere-to-naming-conventions-when-possible-make-the-list-dynamic-so-it-stays-up-to-date" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong><em>!Important</em></strong> - Please avoid using any lists that predate December 2016. New lists must adhere to naming conventions. When possible, make the list Dynamic so it stays up-to-date.</h2>
+
+<ul>
+<li>Define segmentation early</li>
+<li>Use <code>Master Suppression Bucket</code>
+</li>
+<li>Use <code>Master US Suppression</code> and <code>Master EU Suppression</code> accordingly</li>
+</ul>
+
+<blockquote>
+<h6>
+<a id="--list-creation" class="anchor" href="#--list-creation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>- List Creation</h6>
+
+<ul>
+<li>On Import
+
+<ul>
+<li>Spot check list in Excel / Google Sheets / Numbers / Libre Office / etc. If there are any obvious discrepancies, re-pull the list, or contact the list provider for assistance.</li>
+<li>Import list into Pardot</li>
+<li>Add to campaign using proper naming convention</li>
+<li>Select <code>Import Prospects And Add To List</code>
+</li>
+<li>Naming Convention: <code>(Localization) + (Year + Month) + (Segmentation) + (Details)</code>
+
+<ul>
+<li> ex. <code>US - 201612 - Prospects - All Open</code>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</blockquote>
+
+<p>We have three master Dynamic lists in Pardot. For future segmentation lists involving Prospects or Opportunities, please create them by duplicating US - 201612 - Prospects - All Open or US - 201612 - Opportunities and adding a new Dynamic Rule.</p>
+
+<ul>
+<li>US - 201612 - Prospects - All Open</li>
+<li>US - 201612 - Prospects - All Open - Previous 12 Months</li>
+<li>US - 201612 - Opportunities </li>
+</ul>
+
+<h6>
+<a id="existing-segmentation-lists" class="anchor" href="#existing-segmentation-lists" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Existing Segmentation Lists</h6>
+
+<p>San Diego</p>
+
+<ul>
+<li>US - 201612 - Prospects - Dest SD</li>
+<li>US - 201612 - Prospects - Home SD</li>
+<li>US - 201612 - Opportunities - Dest SD</li>
+<li>US - 201612 - Opportunities - Home SD</li>
+</ul>
+
+<p>Palm Springs</p>
+
+<ul>
+<li>US - 201612 - Prospects - Dest Palm Springs</li>
+<li>US - 201612 - Prospects - Home Palm Springs</li>
+<li>US - 201612 - Opportunities - Dest Palm Springs</li>
+<li>US - 201612 - Opportunities - Home Palm Springs</li>
+</ul>
+
+<p>Napa</p>
+
+<ul>
+<li>US - 201612 - Prospects - Dest Napa</li>
+<li>US - 201612 - Prospects - Home Napa</li>
+<li>US - 201612 - Opportunities - Dest Napa</li>
+<li>US - 201612 - Opportunities - Home Napa</li>
+</ul>
+
+<p>Monterey</p>
+
+<ul>
+<li>US - 201612 - Prospects - Dest Monterey</li>
+<li>US - 201612 - Prospects - Home Monterey</li>
+<li>US - 201612 - Opportunities - Dest Monterey</li>
+<li>US - 201612 - Opportunities - Home Monterey</li>
+</ul>
+
+<p>Tahoe</p>
+
+<ul>
+<li>US - 201612 - Prospects - Dest Tahoe / Truckee</li>
+<li>US - 201612 - Prospects - Dest Tahoe / Truckee</li>
+<li>US - 201612 - Opportunities - Dest Tahoe / Truckee</li>
+<li>US - 201612 - Opportunities - Home Tahoe / Truckee</li>
+</ul>
+
+<p>Mammoth</p>
+
+<ul>
+<li>US - 201612 - Prospects - Dest Mammoth</li>
+<li>US - 201612 - Prospects - Home Mammoth</li>
+<li>US - 201612 - Opportunities - Dest Mammoth</li>
+<li>US - 201612 - Opportunities - Home Mammoth</li>
+</ul>
+
+<p>Santa Barbara</p>
+
+<ul>
+<li>US - 201612 - Prospects - Dest Santa Barbara</li>
+<li>US - 201612 - Prospects - Home Santa Barbara</li>
+<li>US - 201612 - Opportunities - Dest Santa Barbara</li>
+<li>US - 201612 - Opportunities - Home Santa Barbara</li>
+</ul>
+
+<p>San Jose</p>
+
+<ul>
+<li>US - 201612 - Prospects - Dest San Jose</li>
+<li>US - 201612 - Prospects - Home San Jose</li>
+<li>US - 201612 - Opportunities - Dest San Jose</li>
+<li>US - 201612 - Opportunities - Home San Jose</li>
+</ul>
+
+<p>San Carlos</p>
+
+<ul>
+<li>US - 201612 - Prospects - Dest San Carlos</li>
+<li>US - 201612 - Prospects - Home San Carlos</li>
+<li>US - 201612 - Opportunities - Dest San Carlos</li>
+<li>US - 201612 - Opportunities - Home San Carlos</li>
+</ul>
+
+<p>Oakland</p>
+
+<ul>
+<li>US - 201612 - Prospects - Dest Oakland</li>
+<li>US - 201612 - Prospects - Home Oakland</li>
+<li>US - 201612 - Opportunities - Dest Oakland</li>
+<li>US - 201612 - Opportunities - Home Oakland</li>
+</ul>
+
+<p>Hawthorne</p>
+
+<ul>
+<li>US - 201612 - Prospects - Dest Hawthorne</li>
+<li>US - 201612 - Prospects - Home Hawthorne</li>
+<li>US - 201612 - Opportunities - Dest Hawthorne</li>
+<li>US - 201612 - Opportunities - Home Hawthorne</li>
+</ul>
+
+<p>Burbank</p>
+
+<ul>
+<li>US - 201612 - Prospects - Dest Burbank</li>
+<li>US - 201612 - Prospects - Home Burbank</li>
+<li>US - 201612 - Opportunities - Dest Burbank</li>
+<li>US - 201612 - Opportunities - Home Burbank</li>
 </ul>
 
 <h5>
@@ -98,9 +283,9 @@
 </li>
 </ul>
 
-<h5>
+<h6>
 <a id="text-version-important" class="anchor" href="#text-version-important" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Text Version <strong><em>!Important</em></strong>
-</h5>
+</h6>
 
 <hr>
 
@@ -112,55 +297,7 @@
 <li>Affects any user who can not render the HTML email</li>
 </ul>
 </li>
-<li>Before sending, do one final check. Then check it again. </li>
-</ul>
-
-<h5>
-<a id="segmentation" class="anchor" href="#segmentation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Segmentation</h5>
-
-<hr>
-
-<h2>
-<a id="important---please-avoid-using-any-lists-that-predate-december-2016-new-lists-must-adhere-to-naming-conventions-when-possible-make-the-list-dynamic-so-it-stays-up-to-date" class="anchor" href="#important---please-avoid-using-any-lists-that-predate-december-2016-new-lists-must-adhere-to-naming-conventions-when-possible-make-the-list-dynamic-so-it-stays-up-to-date" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong><em>!Important</em></strong> - Please avoid using any lists that predate December 2016. New lists must adhere to naming conventions. When possible, make the list Dynamic so it stays up-to-date.</h2>
-
-<ul>
-<li>Define segmentation early</li>
-<li>Use <code>Master Suppression Bucket</code>
-</li>
-<li>Use <code>Master US Suppression</code> and <code>Master EU Suppression</code> accordingly</li>
-</ul>
-
-<blockquote>
-<h6>
-<a id="--list-creation" class="anchor" href="#--list-creation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>- List Creation</h6>
-
-<ul>
-<li>On Import
-
-<ul>
-<li>Spot check list in Excel / Google Sheets / Numbers / Libre Office / etc. If there are any obvious discrepancies, re-pull the list, or contact the list provider for assistance.</li>
-<li>Import list into Pardot</li>
-<li>Add to campaign using proper naming convention</li>
-<li>Select <code>Import Prospects And Add To List</code>
-</li>
-<li>Naming Convention: <code>(Localization) + (Year + Month) + (Segmentation) + (Details)</code>
-
-<ul>
-<li> ex. <code>US - 201612 - Prospects - All Open</code>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</blockquote>
-
-<p>We have three new Dynamic lists in Pardot. For future segmentation lists involving Prospects or Opportunities, please create them by duplicating US - 201612 - Prospects - All Open or US - 201612 - Opportunities and adding a new Dynamic Rule.</p>
-
-<ul>
-<li>US - 201612 - Prospects - All Open</li>
-<li>US - 201612 - Prospects - All Open - Previous 12 Months</li>
-<li>US - 201612 - Opportunities </li>
+<li>Before sending, do one final check. Then check it again.</li>
 </ul>
 
 <h5>
