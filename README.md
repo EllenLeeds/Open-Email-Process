@@ -5,15 +5,15 @@ Please see [Contribution.md](/CONTRIBUTING.md)
 
 ## Table of Contents
 - Process
-	- [Campaign](process/campaign)
-	- [Segmentation](process/segmentation)
-		- [List Creation](process/segmentation)
-	- [Published Template](process/template)
-	- [Draft](process/draft)
-  	- [Text Version](process/template)
-	- [Sending](process/sending)
-	- [Completion Actions](process/completion_action)
-	- [Drip Campaign](process/drip)
+	- [Campaign](/process/campaign.md)
+	- [Segmentation](/process/segmentation.md)
+		- [List Creation](/process/segmentation.md)
+	- [Published Template](/process/template.md)
+	- [Draft](/process/draft.md)
+  	- [Text Version](/process/template.md)
+	- [Sending](/process/sending.md)
+	- [Completion Actions](/process/completion_action.md)
+	- [Drip Campaign](/process/drip.md)
 
 ## Process
 
