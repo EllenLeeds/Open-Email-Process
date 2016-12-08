@@ -137,10 +137,10 @@ Burbank
 
 ###### Text Version ***!Important***
 ---
-- Update early, update often.
-	- Seriously, don't forget this!
-	- Affects any user who can not render the HTML email
-- Before sending, do one final check. Then check it again.
+	- Update early, update often.
+		- Seriously, don't forget this!
+		- Affects any user who can not render the HTML email
+	- Before sending, do one final check. Then check it again.
 
 ##### Sending
 ---
